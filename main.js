@@ -13,6 +13,6 @@ searchGoogleMaps = function(info){
  
 chrome.contextMenus.create({
  id: "maps",
- title: "Search on Google Maps",
+ title: "Search on maps",
  contexts:["selection"],  
 });
